@@ -5,14 +5,14 @@ const linkStyle = {
 };
 
 export const Header = () => (
-  <div>
-    <Link href='/'>
+  <header>
+    <Link href="/">
       <a style={linkStyle}>Home</a>
     </Link>
-    <Link href='/about'>
+    <Link href="/about">
       <a style={linkStyle}>About</a>
     </Link>
-  </div>
+  </header>
 );
 
 export default Header;

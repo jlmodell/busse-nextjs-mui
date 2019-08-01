@@ -1,12 +1,9 @@
-import Header from "../components/Header";
+import Layout from "../components/layout/Layout";
 
-export default function About() {
-  {
-    return (
-      <div>
-        <Header />
-        <p>This is the about page.</p>
-      </div>
-    );
-  }
-}
+const About = () => (
+  <Layout>
+    <p>This is the about page.</p>
+  </Layout>
+);
+
+export default About;
